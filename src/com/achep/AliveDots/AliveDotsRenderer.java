@@ -20,7 +20,6 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 import com.achep.AliveDots.gles20.GLES20Helper;
-import com.achep.alivedots.R;
 
 import android.content.Context;
 import android.opengl.GLES20;
