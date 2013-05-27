@@ -1,5 +1,17 @@
 <resources>
 
     <string name="app_name">Alive Dots</string>
+    <string name="preferences">Settings</string>
+    <string name="pr_color">Color</string>
+    <string name="pr_green">Green</string>
+    <string name="pr_lgreen">Light Green</string>
+    <string name="pr_yellow">Yellow</string>
+    <string name="pr_blue">Blue</string>
+    <string name="pr_cyan">Cyan</string>
+    <string name="pr_violet">Violet</string>
+    <string name="pr_pink">Pink</string>
+    <string name="pr_red">Red</string>
+    <string name="pr_orange">Orange</string>
+    <string name="pr_silver">Silver</string>
 
 </resources>
