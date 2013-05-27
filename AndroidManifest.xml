@@ -30,6 +30,12 @@
                 android:name="android.service.wallpaper"
                 android:resource="@xml/wallpaper" />
         </service>
+        <activity
+            android:label="ADPreferences"
+            android:name="com.achep.AliveDots.ADPreferences"
+            android:theme="@style/AppTheme"
+            android:exported="true">
+        </activity>
     </application>
 
 </manifest>

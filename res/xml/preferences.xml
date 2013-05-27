@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:title="@string/preferences"
+    android:key="livewallpaper_settings">
+    
+    <ListPreference
+	        android:defaultValue="1"
+	        android:entries="@array/colorArray"
+	        android:entryValues="@array/colorValues"
+	        android:key="colorPref"
+	        android:title="@string/pr_color" />
+    
+
+</PreferenceScreen>
