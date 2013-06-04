@@ -1,17 +1,5 @@
 <resources>
 
     <string name="app_name">Живые точки</string>
-    <string name="preferences">Настройки</string>
-    <string name="pr_color">Цвет</string>
-    <string name="pr_green">Зеленый</string>
-    <string name="pr_lgreen">Светло-зеленый</string>
-    <string name="pr_yellow">Желтый</string>
-    <string name="pr_blue">Синий</string>
-    <string name="pr_cyan">Голубой</string>
-    <string name="pr_violet">Фиолетовый</string>
-    <string name="pr_pink">Розовый</string>
-    <string name="pr_red">Красный</string>
-    <string name="pr_orange">Оранжевый</string>
-    <string name="pr_silver">Серый</string>
 
 </resources>

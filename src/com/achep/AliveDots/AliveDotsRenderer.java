@@ -25,7 +25,6 @@ import android.content.Context;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView.Renderer;
 import android.opengl.Matrix;
-import android.preference.PreferenceManager;
 
 public class AliveDotsRenderer implements Renderer {
 
@@ -71,39 +70,7 @@ public class AliveDotsRenderer implements Renderer {
 
 		GLES20.glUniform1f(muPointSize, mConfigDotsSize);
 		//GLES20.glUniform4f(muColor, 0.4f, 0.803f, 1f, 1f);
-		final int colorSet = Integer.parseInt(PreferenceManager.getDefaultSharedPreferences(mContext).getString("colorPref", "1"));
-		switch(colorSet){
-		case 1:
-			GLES20.glUniform4f(muColor, 0f, 1f, 0f, 1f); //green
-			break;
-		case 2:
-			GLES20.glUniform4f(muColor, 0f, 5f, 3f, 1f); //lgreen
-			break;
-		case 3:
-			GLES20.glUniform4f(muColor, 3f, 3f, 0f, 1f); //yellow
-			break;
-		case 4:
-			GLES20.glUniform4f(muColor, 0f, 0f, 5f, 1f); //blue
-			break;
-		case 5:
-			GLES20.glUniform4f(muColor, 0f, 2f, 5f, 1f); //cyan
-			break;
-		case 6:
-			GLES20.glUniform4f(muColor, 2f, 0f, 5f, 1f); //violet
-			break;
-		case 7:
-			GLES20.glUniform4f(muColor, 3f, 0f, 1f, 1f); //pink
-			break;
-		case 8:
-			GLES20.glUniform4f(muColor, 3f, 0f, 0f, 1f); //red
-			break;
-		case 9:
-			GLES20.glUniform4f(muColor, 3f, 1f, 0f, 1f); //orange
-			break;
-		case 10:
-			GLES20.glUniform4f(muColor, 1f, 1f, 1f, 1f); //silver
-			break;
-		}
+		GLES20.glUniform4f(muColor, 0f, 1f, 0f, 1f);
 		GLES20.glUniform1f(muTime, System.currentTimeMillis() % mConfigSpeed
 				/ (float) mConfigSpeed);
 
